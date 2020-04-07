@@ -16,7 +16,7 @@
 
 
 form {
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
     overflow: hidden;
     background-color:orange;
@@ -63,8 +63,8 @@ h1{
     text-align: center; 
     text-decoration: underline
   }
-  
-table{
+
+.tablecolor{
     font-family: Calibri; 
     color:white; 
     font-size: 11pt; 
@@ -72,9 +72,19 @@ table{
     font-weight: bold;
     text-align:; 
     background-color: SlateBlue; 
-    border-collapse: collapse; 
+    border-collapse: separate;
+    border-spacing:  1em;
+    margin: 10px;
     border: 2px solid navy
-  }
+  } 
+  div {
+    margin: 0px;
+    padding: 0px;
+}
+.selected{
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
   .button {
   
   border: none;
